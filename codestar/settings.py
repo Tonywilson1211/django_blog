@@ -15,7 +15,7 @@ import os
 import dj_database_url
 
 if os.path.isfile("env.py"):
-   import env
+    import env
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -33,7 +33,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['aw-codestar.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-tonywilson1211-django-bl-6t74r4qusr.us2.codeanyapp.com']
 
+CLOUDINARY = os.environ.get('CLOUNDINARY_URL')
 
 # Application definition
 
@@ -143,3 +145,4 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloundiaryStorage'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
