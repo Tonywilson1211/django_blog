@@ -36,7 +36,6 @@ DEBUG = False
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['aw-codestar.herokuapp.com']
-ALLOWED_HOSTS = ['8000-tonywilson1211-django-bl-6t74r4qusr.us2.codeanyapp.com']
 
 # Application definition
 
